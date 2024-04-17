@@ -1,0 +1,8 @@
+services:
+  imposter:
+    image: docker.io/outofcoffee/imposter-all:3.36.3
+    container_name: imposter
+    volumes:
+      - ./config:/opt/imposter/config
+    ports:
+      - 127.0.0.1:8080:8080

@@ -1,0 +1,13 @@
+---
+plugin: rest
+
+system:
+  stores:
+    persons:
+      preloadFile: persons.json
+
+resources:
+  - path: "/persons"
+    method: get
+    response:
+      scriptFile: response.js

@@ -6,3 +6,5 @@ services:
       - ./config:/opt/imposter/config
     ports:
       - 127.0.0.1:8080:8080
+    environment:
+      - IMPOSTER_JS_PLUGIN=js-graal

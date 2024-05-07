@@ -1,6 +1,6 @@
 services:
   imposter:
-    image: docker.io/outofcoffee/imposter-all:3.36.3
+    image: docker.io/outofcoffee/imposter-all:3.39.0
     container_name: imposter
     volumes:
       - ./config:/opt/imposter/config

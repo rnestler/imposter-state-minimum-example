@@ -1,4 +1,4 @@
 var personsStore = stores.open('persons');
-var persons = personsStore.load('persons');
+var persons = personsStore.loadAsJson('persons');
 respond()
-    .withContent(JSON.stringify(persons));
+    .withContent(persons);

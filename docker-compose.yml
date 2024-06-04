@@ -8,3 +8,4 @@ services:
       - 127.0.0.1:8080:8080
     environment:
       - IMPOSTER_JS_PLUGIN=js-graal
+      - IMPOSTER_GRAAL_STORE_PROXY=true
